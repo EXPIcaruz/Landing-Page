@@ -8,8 +8,7 @@ body{ margin: 0;
 .header{
   display: flex;
   justify-content: space-around;
-  padding: 8px;  
- 
+  padding: 8px;   
 }
 ul{
   color: #e5e7eb ;
@@ -54,7 +53,8 @@ p{
 button{
   color: #f9faf8;
 
-  background-color: #3882f6};
+  background-color: #3882f6;}
+
   /* this is all the second section*/ 
  
   .bumble{
@@ -64,33 +64,39 @@ button{
     display: flex;   
   }
 
-
   
 
 h2{
   text-align: center;
   font-size: 36px;
   display: block;}
-
-  .container{
+.container{
     display: flex;
     justify-content: center;
-  }
+  } 
+
+/*section 3*/
+
+.box3{
   
-}
-/* 
-<div class="container">
-                     <div class="info">
-                        <img src="./images/yellow.jpg" alt="yellowjacket">
-                        <div class="text">This is a yellowjacket</div>
-                       </div>
-                       <div class="info">
-                        <img src="./images/Hornet.jpg" alt="Hornet">
-                        <div class="text">This is a hornet</div>                  
-                       <div class="info">
-                        <img src="./images/wasp.jpg" alt="Wasp">
-                        <div class="text">The is wasp.</div>
-                       </div>
-                       <div class="info">
-                        <img src="./images/latern.jpg" alt="saffron">
-                        <div class="text">Destroy these with la
+  padding:150px;
+  background-color: #e5e7eb;
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;  
+  font-weight: 0;
+  font-style: italic;
+
+display: flex;
+justify-content:center
+flex-wrap:wrap-reverse;}
+  
+  .queen {
+    font-size: 20px;    
+    font-weight: 800;
+    text-align:unset;
+    display: flex;
+    align-self: center;
+    text-align: right;
+    padding: 52px;
+  }
