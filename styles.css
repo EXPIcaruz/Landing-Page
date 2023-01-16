@@ -57,5 +57,20 @@ p{
 button{
   color: #f9faf8;
 
-  background-color: #3882f6;
+  background-color: #3882f6};
+  /* this is all the second section*/ 
+ 
+  h2 {
+
+    text-align: center;
+  }
+  .section2{
+    background-color: red;
+    display: flex;
+    justify-content: space-around;
+
+  }
+.container{
+  display: flex;
+justify-content: space-around;
 }
