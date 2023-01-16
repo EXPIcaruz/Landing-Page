@@ -81,3 +81,24 @@ justify-content: space-around;
   justify-content: space-around;
   color:
 }
+
+h2{
+  text-align: center;
+  font-size: 36px;
+}
+/* 
+<div class="container">
+                     <div class="info">
+                        <img src="./images/yellow.jpg" alt="yellowjacket">
+                        <div class="text">This is a yellowjacket</div>
+                       </div>
+                       <div class="info">
+                        <img src="./images/Hornet.jpg" alt="Hornet">
+                        <div class="text">This is a hornet</div>                  
+                       <div class="info">
+                        <img src="./images/wasp.jpg" alt="Wasp">
+                        <div class="text">The is wasp.</div>
+                       </div>
+                       <div class="info">
+                        <img src="./images/latern.jpg" alt="saffron">
+                        <div class="text">Destroy these with la
