@@ -81,22 +81,23 @@ h2{
   
   padding:150px;
   background-color: #e5e7eb;
-  text-align: center;
+  text-align: ju;
   color: #1f2937;
   font-size: 36px;  
   font-weight: 0;
   font-style: italic;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+  mar;}
+  
 
-display: flex;
-justify-content:center
-flex-wrap:wrap-reverse;}
+
   
   .queen {
-    font-size: 20px;    
+    font-size: 24px;    
     font-weight: 800;
-    text-align:unset;
-    display: flex;
-    align-self: center;
-    text-align: right;
-    padding: 52px;
+  display: flex;
+  justify-content: right;
+margin: 0 450px;
   }
