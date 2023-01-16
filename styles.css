@@ -1,36 +1,54 @@
-body{ margin: 0;
-  
+body{ margin: 0;  
 }
 .section1{
-  background-color: darkblue;
-  
-   
+  background-color: #1f2937;  
 
 }
+
 .header{
- justify-content: space-around;
-  display: flex;
   background-color: red;
-  align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+  padding: 8px;  
+ 
 }
 ul{
+  color: #e5e7eb ;
   display: flex;
  list-style: none;
- margin: 0;
- padding: 8px;
- gap: 8px;
+justify-content: flex-end;
+margin: 0;
+padding: 0;
+gap: 8px;
 }
-a{
-text-decoration: none;
-}
-
-.logo{
+.tbox{
+  background-color: green;
   display: flex;
-  color: white;
+  justify-content: space-around;
   padding: 8px;
 }
-.link{
+
+img{
+  height: auto;
+  width: 200px;
   display: flex;
-  margin: 20px;
-  co
+  justify-content: center;
+}
+ hl{}
+a{
+text-decoration: none;
+
+}
+
+.beebox{
+  height: auto; 
+  width: 300px;
+
+}
+.words:{
+  
+}
+h1{
+  font: size 48px;
+  font-weight: 1000px;
 }
